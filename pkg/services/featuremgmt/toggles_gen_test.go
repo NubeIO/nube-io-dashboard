@@ -396,7 +396,7 @@ weight: 150
 
 You use feature toggles, also known as feature flags, to enable or disable features in Grafana. You can turn on feature toggles to try out new functionality in development or test environments.
 
-This page contains a list of available feature toggles. To learn how to turn on feature toggles, refer to our [Configure Grafana documentation]({{< relref "../_index.md#feature_toggles" >}}). Feature toggles are also available to Grafana Cloud Advanced customers. If you use Grafana Cloud Advanced, you can open a support ticket and specify the feature toggles and stack for which you want them enabled.
+This page contains a list of available feature toggles. To learn how to turn on feature toggles, refer to our [Configure Grafana documentation]({{< relref "../_index.md#feature_toggles" >}}). Feature toggles are also available to Rubix Dashboard Advanced customers. If you use Rubix Dashboard Advanced, you can open a support ticket and specify the feature toggles and stack for which you want them enabled.
 
 For more information about feature release stages, refer to [Release life cycle for Grafana Labs](https://grafana.com/docs/release-life-cycle/) and [Manage feature toggles](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/administration/feature-toggles/#manage-feature-toggles).
 
@@ -431,7 +431,7 @@ When features are slated for removal, they will be marked as Deprecated first.
 	buf += `
 ## Experimental feature toggles
 
-[Experimental](https://grafana.com/docs/release-life-cycle/#experimental) features are early in their development lifecycle and so are not yet supported in Grafana Cloud.
+[Experimental](https://grafana.com/docs/release-life-cycle/#experimental) features are early in their development lifecycle and so are not yet supported in Rubix Dashboardrdrd.
 Experimental features might be changed or removed without prior notice.
 
 ` + writeToggleDocsTable(func(flag FeatureFlag) bool {

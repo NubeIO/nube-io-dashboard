@@ -12,7 +12,7 @@ export default function MigrateToCloud() {
   return (
     <Page navId="migrate-to-cloud">
       <Alert
-        title={t('migrate-to-cloud.public-preview.title', 'Migrate to Grafana Cloud is in public preview')}
+        title={t('migrate-to-cloud.public-preview.title', 'Migrate to Rubix Dashboard is in public preview')}
         buttonContent={t('migrate-to-cloud.public-preview.button-text', 'Give feedback')}
         severity={'info'}
         onRemove={

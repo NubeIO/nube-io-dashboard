@@ -556,7 +556,7 @@
         "creationTimestamp": "2023-07-06T15:06:11Z"
       },
       "spec": {
-        "description": "Support temporary security credentials in AWS plugins for Grafana Cloud customers",
+        "description": "Support temporary security credentials in AWS plugins for Rubix Dashboard customers",
         "stage": "experimental",
         "codeowner": "@grafana/aws-datasources"
       }
@@ -1276,7 +1276,7 @@
         "creationTimestamp": "2023-07-18T20:43:32Z"
       },
       "spec": {
-        "description": "Enable admin page for managing feature toggles from the Grafana front-end. Grafana Cloud only.",
+        "description": "Enable admin page for managing feature toggles from the Grafana front-end. Rubix Dashboard only.",
         "stage": "experimental",
         "codeowner": "@grafana/grafana-operator-experience-squad",
         "requiresRestart": true,
@@ -2079,7 +2079,7 @@
         }
       },
       "spec": {
-        "description": "Enable the Grafana Migration Assistant, which helps you easily migrate on-prem dashboards, folders, and data source configurations to your Grafana Cloud stack.",
+        "description": "Enable the Grafana Migration Assistant, which helps you easily migrate on-prem dashboards, folders, and data source configurations to your Rubix Dashboard stack.",
         "stage": "preview",
         "codeowner": "@grafana/grafana-operator-experience-squad",
         "expression": "false"

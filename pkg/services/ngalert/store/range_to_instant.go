@@ -17,7 +17,7 @@ const (
 // OptimizeAlertQueries was added to mitigate the high load that could be created by loki range queries.
 // In previous versions of Grafana, Loki datasources would default to range queries
 // instead of instant queries, sometimes creating unnecessary load. This is only
-// done for Grafana Cloud.
+// done for Rubix Dashboardrd.
 func OptimizeAlertQueries(queries []models.AlertQuery) ([]Optimization, error) {
 	if optimizations, migratable := canBeInstant(queries); migratable {
 		err := migrateToInstant(queries, optimizations)

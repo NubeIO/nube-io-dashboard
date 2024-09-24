@@ -57,7 +57,7 @@ export function PluginDetailsRightPanel(props: Props): React.ReactElement | null
               <Trans i18nKey="plugins.details.labels.reportAbuse">Report a concern </Trans>
             </Text>
             <LinkButton href="mailto:integrations@grafana.com" variant="secondary" fill="solid">
-              <Trans i18nKey="plugins.details.labels.contactGrafanaLabs">Contact Grafana Labs</Trans>
+              <Trans i18nKey="plugins.details.labels.contactGrafanaLabs">Contact Nube iO</Trans>
             </LinkButton>
           </Stack>
         </Box>

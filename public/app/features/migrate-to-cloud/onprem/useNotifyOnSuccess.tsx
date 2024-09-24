@@ -52,7 +52,7 @@ function getTranslatedMessage(snapshot: GetSnapshotResponseDto) {
 
   const message = t(
     'migrate-to-cloud.onprem.success-message',
-    'Successfully migrated {{successCount}} {{types, list}} to your Grafana Cloud instance.',
+    'Successfully migrated {{successCount}} {{types, list}} to your Rubix Dashboard instance.',
     { successCount, types }
   );
 

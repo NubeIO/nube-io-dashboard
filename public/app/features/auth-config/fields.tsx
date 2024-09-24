@@ -509,19 +509,19 @@ export function fieldMap(provider: string): Record<string, FieldData> {
     },
     tlsClientCa: {
       label: 'TLS client ca',
-      description: 'The file path to the trusted certificate authority list. Is not applicable on Grafana Cloud.',
+      description: 'The file path to the trusted certificate authority list. Is not applicable on Rubix Dashboard.',
       type: 'text',
       hidden: !config.localFileSystemAvailable,
     },
     tlsClientCert: {
       label: 'TLS client cert',
-      description: 'The file path to the certificate. Is not applicable on Grafana Cloud.',
+      description: 'The file path to the certificate. Is not applicable on Rubix Dashboard.',
       type: 'text',
       hidden: !config.localFileSystemAvailable,
     },
     tlsClientKey: {
       label: 'TLS client key',
-      description: 'The file path to the key. Is not applicable on Grafana Cloud.',
+      description: 'The file path to the key. Is not applicable on Rubix Dashboard.',
       type: 'text',
       hidden: !config.localFileSystemAvailable,
     },

@@ -90,7 +90,7 @@ export const ConnectModal = ({ isOpen, isLoading, error, hideModal, onConfirm }:
 
             <div>
               <Trans i18nKey="migrate-to-cloud.connect-modal.body-token-instructions">
-                Log into your cloud stack and navigate to Administration, General, Migrate to Grafana Cloud. Create a
+                Log into your cloud stack and navigate to Administration, General, Migrate to Rubix Dashboard. Create a
                 migration token on that screen and paste the token here.
               </Trans>
             </div>

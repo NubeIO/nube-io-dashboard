@@ -109,7 +109,7 @@ FROM ${JS_SRC} as js-src
 # Final stage
 FROM ${BASE_IMAGE}
 
-LABEL maintainer="Grafana Labs <hello@grafana.com>"
+LABEL maintainer="Nube iO <hello@nube-io.com>"
 
 ARG GF_UID="472"
 ARG GF_GID="0"

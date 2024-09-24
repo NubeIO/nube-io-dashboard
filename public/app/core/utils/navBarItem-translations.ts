@@ -128,7 +128,7 @@ export function getNavTitle(navId: string | undefined) {
     case 'storage':
       return t('nav.storage.title', 'Storage');
     case 'migrate-to-cloud':
-      return t('nav.migrate-to-cloud.title', 'Migrate to Grafana Cloud');
+      return t('nav.migrate-to-cloud.title', 'Migrate to Rubix Dashboard');
     case 'upgrading':
       return t('nav.upgrading.title', 'Stats and license');
     case 'monitoring':
@@ -309,7 +309,7 @@ export function getNavSubTitle(navId: string | undefined) {
     case 'connections-private-data-source-connections':
       return t(
         'nav.private-data-source-connections.subtitle',
-        'Query data that lives within a secured network without opening the network to inbound traffic from Grafana Cloud. Learn more in our docs.'
+        'Query data that lives within a secured network without opening the network to inbound traffic from Rubix Dashboard. Learn more in our docs.'
       );
     default:
       return undefined;

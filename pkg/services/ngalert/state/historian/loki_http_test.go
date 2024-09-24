@@ -230,7 +230,7 @@ func TestLokiHTTPClient_Manual(t *testing.T) {
 			Encoder:      JsonEncoder{},
 		}, NewRequester(), metrics.NewHistorianMetrics(prometheus.NewRegistry(), metrics.Subsystem), log.NewNopLogger(), tracing.InitializeTracerForTest())
 
-		// Unauthorized request should fail against Grafana Cloud.
+		// Unauthorized request should fail against Rubix Dashboard.
 		err = client.Ping(context.Background())
 		require.Error(t, err)
 
@@ -241,7 +241,7 @@ func TestLokiHTTPClient_Manual(t *testing.T) {
 		// so the x-scope-orgid header is set.
 		// client.cfg.TenantID = "<your_tenant_id>"
 
-		// Authorized request should not fail against Grafana Cloud.
+		// Authorized request should not fail against Rubix Dashboard.
 		err = client.Ping(context.Background())
 		require.NoError(t, err)
 	})
@@ -268,7 +268,7 @@ func TestLokiHTTPClient_Manual(t *testing.T) {
 		start := time.Now().Add(-30 * time.Minute).UnixNano()
 		end := time.Now().UnixNano()
 
-		// Authorized request should not fail against Grafana Cloud.
+		// Authorized request should not fail against Rubix Dashboard.
 		res, err := client.RangeQuery(context.Background(), logQL, start, end, defaultPageSize)
 		require.NoError(t, err)
 		require.NotNil(t, res)
