@@ -1610,11 +1610,11 @@
       "title": "Frontend"
     },
     "global-orgs": {
-      "subtitle": "Isolated instances of Grafana running on the same server",
+      "subtitle": "Isolated instances of Rubix Dashboard running on the same server",
       "title": "Organizations"
     },
     "global-users": {
-      "subtitle": "Manage users in Grafana",
+      "subtitle": "Manage users in Rubix Dashboard",
       "title": "Users"
     },
     "grafana-quaderno": {
@@ -1691,7 +1691,7 @@
       "title": "Playlists"
     },
     "plugins": {
-      "subtitle": "Extend the Grafana experience with plugins",
+      "subtitle": "Extend the Rubix Dashboard experience with plugins",
       "title": "Plugins"
     },
     "private-data-source-connections": {
@@ -1733,7 +1733,7 @@
       "title": "Search dashboards"
     },
     "server-settings": {
-      "subtitle": "View the settings defined in your Grafana config",
+      "subtitle": "View the settings defined in your Rubix Dashboard config",
       "title": "Settings"
     },
     "service-accounts": {

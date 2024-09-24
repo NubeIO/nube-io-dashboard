@@ -255,7 +255,7 @@ export function getNavSubTitle(navId: string | undefined) {
     case 'teams':
       return t('nav.teams.subtitle', 'Groups of users that have common dashboard and permission needs');
     case 'plugins':
-      return t('nav.plugins.subtitle', 'Extend the Grafana experience with plugins');
+      return t('nav.plugins.subtitle', 'Extend the Rubix Dashboard experience with plugins');
     case 'org-settings':
       return t('nav.org-settings.subtitle', 'Manage preferences across an organization');
     case 'apikeys':
@@ -265,11 +265,11 @@ export function getNavSubTitle(navId: string | undefined) {
     case 'groupsync':
       return t('nav.groupsync.subtitle', 'Manage mappings of Identity Provider groups to Grafana Roles');
     case 'global-users':
-      return t('nav.global-users.subtitle', 'Manage users in Grafana');
+      return t('nav.global-users.subtitle', 'Manage users in Rubix Dashboard');
     case 'global-orgs':
-      return t('nav.global-orgs.subtitle', 'Isolated instances of Grafana running on the same server');
+      return t('nav.global-orgs.subtitle', 'Isolated instances of Rubix Dashboard running on the same server');
     case 'server-settings':
-      return t('nav.server-settings.subtitle', 'View the settings defined in your Grafana config');
+      return t('nav.server-settings.subtitle', 'View the settings defined in your Rubix Dashboard config');
     case 'storage':
       return t('nav.storage.subtitle', 'Manage file storage');
     case 'migrate-to-cloud':

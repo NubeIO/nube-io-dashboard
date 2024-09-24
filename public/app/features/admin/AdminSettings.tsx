@@ -16,7 +16,7 @@ function AdminSettings() {
       <Page.Contents>
         <Alert severity="info" title="">
           These system settings are defined in grafana.ini or custom.ini (or overridden in ENV variables). To change
-          these you currently need to restart Grafana.
+          these you currently need to restart Rubix Dashboard.
         </Alert>
 
         {loading && <AdminSettingsTable.Skeleton />}

@@ -324,7 +324,7 @@ function usePageNav(rule: CombinedRule) {
         onClick: () => {
           setActiveTab(ActiveTab.History);
         },
-        // alert state history is only available for Grafana managed alert rules
+        // alert state history is only available for Rubix Dashboard managed alert rules
         hideFromTabs: !isGrafanaAlertRule,
       },
       {

@@ -106,7 +106,7 @@ beforeAll(() => {
 });
 
 describe('RuleViewer', () => {
-  describe('Grafana managed alert rule', () => {
+  describe('Rubix Dashboard managed alert rule', () => {
     const mockRule = getGrafanaRule(
       {
         name: 'Test alert',
@@ -156,7 +156,7 @@ describe('RuleViewer', () => {
       setupDataSources(dataSources.am);
     });
 
-    it('should render a Grafana managed alert rule', async () => {
+    it('should render a Rubix Dashboard managed alert rule', async () => {
       await renderRuleViewer(mockRule, mockRuleIdentifier);
 
       // assert on basic info to be visible

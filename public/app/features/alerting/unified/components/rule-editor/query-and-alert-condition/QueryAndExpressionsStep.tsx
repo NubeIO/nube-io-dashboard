@@ -342,7 +342,7 @@ export const QueryAndExpressionsStep = ({ editingExistingRule, onDataChange }: P
     } else {
       setValue('type', RuleFormType.cloudAlerting);
       // dataSourceName is used only by Mimir/Loki alerting and recording rules
-      // It should be empty for Grafana managed alert rules
+      // It should be empty for Rubix Dashboard managed alert rules
       const newDsName = getDataSourceSrv().getInstanceSettings(queries[0].datasourceUid)?.name;
       if (newDsName) {
         setValue('dataSourceName', newDsName);
