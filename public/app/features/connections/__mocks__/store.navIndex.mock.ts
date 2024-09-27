@@ -312,7 +312,7 @@ export const navIndex: NavIndex = {
       {
         id: 'plugins',
         text: 'Plugins',
-        subTitle: 'Extend the Grafana experience with plugins',
+        subTitle: 'Extend the Rubix Dashboard experience with plugins',
         icon: 'plug',
         url: '/plugins',
       },
@@ -354,14 +354,14 @@ export const navIndex: NavIndex = {
           {
             id: 'global-orgs',
             text: 'Organizations',
-            subTitle: 'Isolated instances of Grafana running on the same server',
+            subTitle: 'Isolated instances of Rubix Dashboard running on the same server',
             icon: 'building',
             url: '/admin/orgs',
           },
           {
             id: 'server-settings',
             text: 'Settings',
-            subTitle: 'View the settings defined in your Grafana config',
+            subTitle: 'View the settings defined in your Rubix Dashboard config',
             icon: 'sliders-v-alt',
             url: '/admin/settings',
           },
@@ -406,7 +406,7 @@ export const navIndex: NavIndex = {
   plugins: {
     id: 'plugins',
     text: 'Plugins',
-    subTitle: 'Extend the Grafana experience with plugins',
+    subTitle: 'Extend the Rubix Dashboard experience with plugins',
     icon: 'plug',
     url: '/plugins',
   },
@@ -448,14 +448,14 @@ export const navIndex: NavIndex = {
       {
         id: 'global-orgs',
         text: 'Organizations',
-        subTitle: 'Isolated instances of Grafana running on the same server',
+        subTitle: 'Isolated instances of Rubix Dashboard running on the same server',
         icon: 'building',
         url: '/admin/orgs',
       },
       {
         id: 'server-settings',
         text: 'Settings',
-        subTitle: 'View the settings defined in your Grafana config',
+        subTitle: 'View the settings defined in your Rubix Dashboard config',
         icon: 'sliders-v-alt',
         url: '/admin/settings',
       },
@@ -477,14 +477,14 @@ export const navIndex: NavIndex = {
   'global-orgs': {
     id: 'global-orgs',
     text: 'Organizations',
-    subTitle: 'Isolated instances of Grafana running on the same server',
+    subTitle: 'Isolated instances of Rubix Dashboard running on the same server',
     icon: 'building',
     url: '/admin/orgs',
   },
   'server-settings': {
     id: 'server-settings',
     text: 'Settings',
-    subTitle: 'View the settings defined in your Grafana config',
+    subTitle: 'View the settings defined in your Rubix Dashboard config',
     icon: 'sliders-v-alt',
     url: '/admin/settings',
   },

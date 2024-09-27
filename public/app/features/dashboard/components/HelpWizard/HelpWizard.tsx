@@ -87,12 +87,12 @@ export function HelpWizard({ panel, plugin, onClose }: Props) {
             </a>
           </Stack>
           <span className="muted">
-            To request troubleshooting help, send a snapshot of this panel to Grafana Labs Technical Support. The
+            To request troubleshooting help, send a snapshot of this panel to Nube iO Technical Support. The
             snapshot contains query response data and panel settings.
           </span>
           {hasSupportBundleAccess && (
             <span className="muted">
-              You can also retrieve a support bundle containing information concerning your Grafana instance and
+              You can also retrieve a support bundle containing information concerning your Rubix Dashboard instance and
               configured datasources in the <a href="/support-bundles">support bundles section</a>.
             </span>
           )}

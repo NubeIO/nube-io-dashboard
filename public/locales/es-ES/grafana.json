@@ -1278,7 +1278,7 @@
     "can-i-move": {
       "body": "Una vez que conectes esta instalación a una pila en la nube, podrás cargar fuentes de datos y paneles.",
       "link-title": "Infórmate sobre el proceso de migrar otros ajustes",
-      "title": "¿Puedo mover esta instalación a Grafana Cloud?"
+      "title": "¿Puedo mover esta instalación a Rubix Dashboard?"
     },
     "connect-modal": {
       "body-cloud-stack": "También necesitarás una pila en la nube. Si te acabas de registrar, crearemos automáticamente tu primera pila. Si tienes una cuenta, deberás seleccionar o crear una.",
@@ -1287,7 +1287,7 @@
       "body-token": "Tu instalación autogestionada de Grafana necesita acceso especial para poder migrar el contenido de forma segura. Tendrás que crear un token de migración en la pila en la nube que hayas elegido.",
       "body-token-field": "Token de migración",
       "body-token-field-placeholder": "Pega el token aquí",
-      "body-token-instructions": "Inicia sesión en tu pila en la nube y ve a Administración > General > Migrar a Grafana Cloud. Crea un token de migración en esa pantalla y pégalo aquí.",
+      "body-token-instructions": "Inicia sesión en tu pila en la nube y ve a Administración > General > Migrar a Rubix Dashboard. Crea un token de migración en esa pantalla y pégalo aquí.",
       "body-view-stacks": "Ver mis pilas en la nube",
       "cancel": "Cancelar",
       "connect": "Conectar con esta pila",
@@ -1319,7 +1319,7 @@
       "body": "El proceso de migración debe iniciarse desde tu instancia autogestionada de Grafana.",
       "configure-pdc-link": "Configurar PDC para esta pila",
       "link-title": "Más información sobre Private Data Source Connect",
-      "step-1": "Inicia sesión en tu instancia autogestionada y ve a Administración > General > Migrar a Grafana Cloud.",
+      "step-1": "Inicia sesión en tu instancia autogestionada y ve a Administración > General > Migrar a Rubix Dashboard.",
       "step-2": "Selecciona «Migrar esta instancia a Cloud».",
       "step-3": "Se te pedirá un token de migración. Genera uno desde esta pantalla.",
       "step-4": "En tu instancia autogestionada, selecciona «Subir todo» para subir fuentes de datos y paneles a esta pila en la nube.",
@@ -1327,8 +1327,8 @@
       "title": ""
     },
     "is-it-secure": {
-      "body": "Grafana Labs se compromete a mantener los más altos estándares de privacidad y seguridad. Al implementar las tecnologías y los procedimientos de seguridad estándar del sector, ayudamos a proteger los datos de nuestros clientes de accesos, usos o divulgaciones no autorizados.",
-      "link-title": "Centro de confianza de Grafana Labs",
+      "body": "Nube iO se compromete a mantener los más altos estándares de privacidad y seguridad. Al implementar las tecnologías y los procedimientos de seguridad estándar del sector, ayudamos a proteger los datos de nuestros clientes de accesos, usos o divulgaciones no autorizados.",
+      "link-title": "Centro de confianza de Nube iO",
       "title": "¿Es seguro?"
     },
     "migrate-to-this-stack": {
@@ -1377,13 +1377,13 @@
       "upload-snapshot-error-title": ""
     },
     "pdc": {
-      "body": "Exponer tus fuentes de datos en Internet puede plantear problemas de seguridad. Private Data Source Connect (PDC) permite a Grafana Cloud acceder a tus fuentes de datos a través de un túnel de red seguro.",
+      "body": "Exponer tus fuentes de datos en Internet puede plantear problemas de seguridad. Private Data Source Connect (PDC) permite a Rubix Dashboard acceder a tus fuentes de datos a través de un túnel de red seguro.",
       "link-title": "Infórmate sobre PDC",
       "title": "No todas mis fuentes de datos están en la red de Internet pública"
     },
     "pricing": {
-      "body": "Grafana Cloud te ofrece un generoso plan gratuito y una prueba de 14 días de uso ilimitado. Una vez finalizado el período de prueba, se te facturará en función del uso que supere los límites del plan gratuito.",
-      "link-title": "Precios de Grafana Cloud",
+      "body": "Rubix Dashboard te ofrece un generoso plan gratuito y una prueba de 14 días de uso ilimitado. Una vez finalizado el período de prueba, se te facturará en función del uso que supere los límites del plan gratuito.",
+      "link-title": "Precios de Rubix Dashboard",
       "title": "¿Cuánto cuesta?"
     },
     "public-preview": {
@@ -1444,12 +1444,12 @@
       "unknown-error": ""
     },
     "what-is-cloud": {
-      "body": "Grafana Cloud es una plataforma de observabilidad en la nube completamente gestionada, ideal para entornos nativos de la nube. Incluye todo lo que te encanta de Grafana sin que tengas que preocuparte por el mantenimiento, las actualizaciones o la instalación.",
+      "body": "Rubix Dashboard es una plataforma de observabilidad en la nube completamente gestionada, ideal para entornos nativos de la nube. Incluye todo lo que te encanta de Grafana sin que tengas que preocuparte por el mantenimiento, las actualizaciones o la instalación.",
       "link-title": "Más información sobre las funciones en la nube",
-      "title": "¿Qué es Grafana Cloud?"
+      "title": "¿Qué es Rubix Dashboard?"
     },
     "why-host": {
-      "body": "Además de la comodidad del alojamiento gestionado, Grafana Cloud incluye muchas funciones exclusivas en la nube, como SLO, gestión de incidencias, aprendizaje automático y prácticas integraciones de observabilidad.",
+      "body": "Además de la comodidad del alojamiento gestionado, Rubix Dashboard incluye muchas funciones exclusivas en la nube, como SLO, gestión de incidencias, aprendizaje automático y prácticas integraciones de observabilidad.",
       "link-title": "¿Tienes preguntas? Habla con un experto",
       "title": "¿Por qué alojar con Grafana?"
     }
@@ -1648,7 +1648,7 @@
     },
     "migrate-to-cloud": {
       "subtitle": "Copia la configuración de tu instalación autogestionada a una pila en la nube",
-      "title": "Migrar a Grafana Cloud"
+      "title": "Migrar a Rubix Dashboard"
     },
     "monitoring": {
       "subtitle": "",
@@ -1682,7 +1682,7 @@
       "title": "Complementos"
     },
     "private-data-source-connections": {
-      "subtitle": "Consulta los datos existentes en una red segura sin abrirla al tráfico entrante de Grafana Cloud. Tienes más información en nuestros documentos.",
+      "subtitle": "Consulta los datos existentes en una red segura sin abrirla al tráfico entrante de Rubix Dashboard. Tienes más información en nuestros documentos.",
       "title": "Conexión a la fuente de datos privada"
     },
     "profile/notifications": {

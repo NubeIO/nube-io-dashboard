@@ -264,7 +264,7 @@ const (
 	FlagLogsExploreTableVisualisation = "logsExploreTableVisualisation"
 
 	// FlagAwsDatasourcesTempCredentials
-	// Support temporary security credentials in AWS plugins for Grafana Cloud customers
+	// Support temporary security credentials in AWS plugins for Rubix Dashboard customers
 	FlagAwsDatasourcesTempCredentials = "awsDatasourcesTempCredentials"
 
 	// FlagTransformationsRedesign
@@ -296,7 +296,7 @@ const (
 	FlagGrafanaAPIServerEnsureKubectlAccess = "grafanaAPIServerEnsureKubectlAccess"
 
 	// FlagFeatureToggleAdminPage
-	// Enable admin page for managing feature toggles from the Grafana front-end. Grafana Cloud only.
+	// Enable admin page for managing feature toggles from the Grafana front-end. Rubix Dashboard only.
 	FlagFeatureToggleAdminPage = "featureToggleAdminPage"
 
 	// FlagAwsAsyncQueryCaching
@@ -560,7 +560,7 @@ const (
 	FlagJitterAlertRulesWithinGroups = "jitterAlertRulesWithinGroups"
 
 	// FlagOnPremToCloudMigrations
-	// Enable the Grafana Migration Assistant, which helps you easily migrate on-prem dashboards, folders, and data source configurations to your Grafana Cloud stack.
+	// Enable the Grafana Migration Assistant, which helps you easily migrate on-prem dashboards, folders, and data source configurations to your Rubix Dashboard stack.
 	FlagOnPremToCloudMigrations = "onPremToCloudMigrations"
 
 	// FlagAlertingSaveStatePeriodic

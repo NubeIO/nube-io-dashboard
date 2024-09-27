@@ -1278,7 +1278,7 @@
     "can-i-move": {
       "body": "Sobald Sie diese Installation mit einem Cloud Stack verbinden, können Sie Datenquellen und Dashboards hochladen.",
       "link-title": "Erfahren Sie, wie Sie andere Einstellungen migrieren",
-      "title": "Kann ich diese Installation in die Grafana Cloud verschieben?"
+      "title": "Kann ich diese Installation in die Rubix Dashboard verschieben?"
     },
     "connect-modal": {
       "body-cloud-stack": "Sie benötigen außerdem einen Cloud Stack. Wenn Sie sich gerade angemeldet haben, erstellen wir automatisch Ihren ersten Stack. Wenn Sie bereits ein Konto haben, müssen Sie einen Stack auswählen oder erstellen.",
@@ -1287,7 +1287,7 @@
       "body-token": "Ihre selbstverwaltete Grafana-Installation benötigt einen speziellen Zugang, um Inhalte sicher zu migrieren. Sie müssen ein Migrationstoken für den von Ihnen gewählten Cloud-Stack erstellen.",
       "body-token-field": "Migrationstoken",
       "body-token-field-placeholder": "Token hier einfügen",
-      "body-token-instructions": "Loggen Sie sich in Ihren Cloud Stack ein und navigieren Sie zu Administration, Allgemein, Zu Grafana Cloud migrieren. Erstellen Sie auf diesem Bildschirm ein Migrationstoken und fügen Sie das Token hier ein.",
+      "body-token-instructions": "Loggen Sie sich in Ihren Cloud Stack ein und navigieren Sie zu Administration, Allgemein, Zu Rubix Dashboard migrieren. Erstellen Sie auf diesem Bildschirm ein Migrationstoken und fügen Sie das Token hier ein.",
       "body-view-stacks": "Meine Cloud Stacks anzeigen",
       "cancel": "Abbrechen",
       "connect": "Mit diesem Stack verbinden",
@@ -1319,7 +1319,7 @@
       "body": "Der Migrationsprozess muss von Ihrer selbstverwalteten Grafana-Instanz aus gestartet werden.",
       "configure-pdc-link": "PDC für diesen Stack konfigurieren",
       "link-title": "Erfahren Sie mehr über Private Data Source Connect",
-      "step-1": "Loggen Sie sich in Ihre selbstverwaltete Instanz ein und navigieren Sie zur Administration, Allgemein, Zu Grafana Cloud migrieren.",
+      "step-1": "Loggen Sie sich in Ihre selbstverwaltete Instanz ein und navigieren Sie zur Administration, Allgemein, Zu Rubix Dashboard migrieren.",
       "step-2": "Wählen Sie „Diese Instanz in die Cloud migrieren“.",
       "step-3": "Sie werden nach einem Migrationstoken gefragt. Generieren Sie eines von diesem Bildschirm.",
       "step-4": "Wählen Sie in Ihrer selbstverwalteten Instanz „Alles hochladen“ aus, um Datenquellen und Dashboards auf diesen Cloud Stack hochzuladen.",
@@ -1327,8 +1327,8 @@
       "title": ""
     },
     "is-it-secure": {
-      "body": "Grafana Labs verpflichtet sich, die höchsten Standards in Bezug auf Datenschutz und Sicherheit zu wahren. Durch die Einführung branchenüblicher Sicherheitstechnologien und -verfahren schützen wir die Daten unserer Kunden vor unbefugtem Zugriff, Nutzung oder Offenlegung.",
-      "link-title": "Grafana Labs Trust Center",
+      "body": "Nube iO verpflichtet sich, die höchsten Standards in Bezug auf Datenschutz und Sicherheit zu wahren. Durch die Einführung branchenüblicher Sicherheitstechnologien und -verfahren schützen wir die Daten unserer Kunden vor unbefugtem Zugriff, Nutzung oder Offenlegung.",
+      "link-title": "Nube iO Trust Center",
       "title": "Ist es sicher?"
     },
     "migrate-to-this-stack": {
@@ -1377,13 +1377,13 @@
       "upload-snapshot-error-title": ""
     },
     "pdc": {
-      "body": "Wenn Sie Ihre Datenquellen dem Internet aussetzen, kann dies zu Sicherheitsrisiken führen. Private Data Source Connect (PDC) ermöglicht Grafana Cloud den Zugriff auf Ihre bestehenden Datenquellen über einen sicheren Netzwerktunnel.",
+      "body": "Wenn Sie Ihre Datenquellen dem Internet aussetzen, kann dies zu Sicherheitsrisiken führen. Private Data Source Connect (PDC) ermöglicht Rubix Dashboard den Zugriff auf Ihre bestehenden Datenquellen über einen sicheren Netzwerktunnel.",
       "link-title": "Mehr über PDC erfahren",
       "title": "Nicht alle meine Datenquellen sind im öffentlichen Internet"
     },
     "pricing": {
-      "body": "Grafana Cloud bietet einen großzügigen kostenlosen Tarif und eine 14-tägige Testphase mit unbegrenzter Nutzung. Nach Ablauf der Testphase wird Ihnen die Nutzung über die Grenzen des kostenlosen Tarifs hinaus in Rechnung gestellt.",
-      "link-title": "Grafana Cloud Preisgestaltung",
+      "body": "Rubix Dashboard bietet einen großzügigen kostenlosen Tarif und eine 14-tägige Testphase mit unbegrenzter Nutzung. Nach Ablauf der Testphase wird Ihnen die Nutzung über die Grenzen des kostenlosen Tarifs hinaus in Rechnung gestellt.",
+      "link-title": "Rubix Dashboard Preisgestaltung",
       "title": "Was kostet es?"
     },
     "public-preview": {
@@ -1444,12 +1444,12 @@
       "unknown-error": ""
     },
     "what-is-cloud": {
-      "body": "Grafana Cloud ist eine vollständig verwaltete, in der Cloud gehostete Observability-Plattform, die ideal für Cloud-native Umgebungen ist. Sie enthält alles, was Sie an Grafana lieben, ohne den Aufwand für Wartung, Upgrades und Betreuung einer Installation.",
+      "body": "Rubix Dashboard ist eine vollständig verwaltete, in der Cloud gehostete Observability-Plattform, die ideal für Cloud-native Umgebungen ist. Sie enthält alles, was Sie an Grafana lieben, ohne den Aufwand für Wartung, Upgrades und Betreuung einer Installation.",
       "link-title": "Erfahren Sie mehr über Cloud-Funktionen",
-      "title": "Was ist Grafana Cloud?"
+      "title": "Was ist Rubix Dashboard?"
     },
     "why-host": {
-      "body": "Zusätzlich zum Komfort des Managed Hosting bietet Grafana Cloud viele Cloud-exklusive Funktionen wie SLOs, Incident Management, maschinelles Lernen und leistungsstarke Observability-Integrationen.",
+      "body": "Zusätzlich zum Komfort des Managed Hosting bietet Rubix Dashboard viele Cloud-exklusive Funktionen wie SLOs, Incident Management, maschinelles Lernen und leistungsstarke Observability-Integrationen.",
       "link-title": "Weitere Fragen? Sprechen Sie mit einem Experten",
       "title": "Warum mit Grafana hosten?"
     }
@@ -1648,7 +1648,7 @@
     },
     "migrate-to-cloud": {
       "subtitle": "Kopieren Sie die Konfiguration von Ihrer selbstverwalteten Installation in einen Cloud Stack",
-      "title": "In die Grafana Cloud migrieren"
+      "title": "In die Rubix Dashboard migrieren"
     },
     "monitoring": {
       "subtitle": "",
@@ -1682,7 +1682,7 @@
       "title": "Plug-ins"
     },
     "private-data-source-connections": {
-      "subtitle": "Daten abfragen, die in einem gesicherten Netzwerk vorhanden sind, ohne das Netzwerk für eingehenden Datenverkehr von Grafana Cloud zu öffnen. Erfahren Sie mehr in unseren Dokumenten.",
+      "subtitle": "Daten abfragen, die in einem gesicherten Netzwerk vorhanden sind, ohne das Netzwerk für eingehenden Datenverkehr von Rubix Dashboard zu öffnen. Erfahren Sie mehr in unseren Dokumenten.",
       "title": "Private Datenquelle verbinden"
     },
     "profile/notifications": {

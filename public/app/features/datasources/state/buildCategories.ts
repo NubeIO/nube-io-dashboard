@@ -269,7 +269,7 @@ function getEnterprisePhantomPlugins(): DataSourcePluginMeta[] {
 function getGrafanaCloudPhantomPlugin(): DataSourcePluginMeta {
   return {
     id: 'gcloud',
-    name: 'Grafana Cloud',
+    name: 'Rubix Dashboard',
     type: PluginType.datasource,
     module: 'phantom',
     baseUrl: '',

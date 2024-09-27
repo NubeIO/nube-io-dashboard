@@ -482,7 +482,7 @@ var (
 		},
 		{
 			Name:        "awsDatasourcesTempCredentials",
-			Description: "Support temporary security credentials in AWS plugins for Grafana Cloud customers",
+			Description: "Support temporary security credentials in AWS plugins for Rubix Dashboard customers",
 			Stage:       FeatureStageExperimental,
 			Owner:       awsDatasourcesSquad,
 		},
@@ -542,7 +542,7 @@ var (
 		},
 		{
 			Name:            "featureToggleAdminPage",
-			Description:     "Enable admin page for managing feature toggles from the Grafana front-end. Grafana Cloud only.",
+			Description:     "Enable admin page for managing feature toggles from the Grafana front-end. Rubix Dashboard only.",
 			Stage:           FeatureStageExperimental,
 			FrontendOnly:    false,
 			Owner:           grafanaOperatorExperienceSquad,
@@ -1047,7 +1047,7 @@ var (
 		},
 		{
 			Name:        "onPremToCloudMigrations",
-			Description: "Enable the Grafana Migration Assistant, which helps you easily migrate on-prem dashboards, folders, and data source configurations to your Grafana Cloud stack.",
+			Description: "Enable the Grafana Migration Assistant, which helps you easily migrate on-prem dashboards, folders, and data source configurations to your Rubix Dashboard stack.",
 			Stage:       FeatureStagePublicPreview,
 			Owner:       grafanaOperatorExperienceSquad,
 			Expression:  "false",

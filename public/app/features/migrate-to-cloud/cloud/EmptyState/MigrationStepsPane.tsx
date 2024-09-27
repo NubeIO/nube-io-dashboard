@@ -23,7 +23,7 @@ export const MigrationStepsPane = () => {
           <ol className={styles.list}>
             <li>
               <Trans i18nKey="migrate-to-cloud.get-started.step-1">
-                Log in to your self-managed instance and navigate to Administration, General, Migrate to Grafana Cloud.
+                Log in to your self-managed instance and navigate to Administration, General, Migrate to Rubix Dashboard.
               </Trans>
             </li>
             <li>

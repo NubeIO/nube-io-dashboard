@@ -172,7 +172,7 @@ export const ServiceAccountsListPageUnconnected = ({
   );
   const subTitle = (
     <span>
-      Service accounts and their tokens can be used to authenticate against the Grafana API. Find out more in our{' '}
+      Service accounts and their tokens can be used to authenticate against the Rubix API. Find out more in our{' '}
       {docsLink}
     </span>
   );

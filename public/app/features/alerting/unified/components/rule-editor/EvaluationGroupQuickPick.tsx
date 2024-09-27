@@ -19,7 +19,7 @@ export const getEvaluationGroupOptions = (minInterval = MIN_INTERVAl) => {
     parsePrometheusDuration('1h'),
   ];
 
-  // 10s for OSS and 1m0s for Grafana Cloud
+  // 10s for OSS and 1m0s for Rubix Dashboard
   const minEvaluationIntervalMillis = safeParsePrometheusDuration(minInterval);
 
   /**

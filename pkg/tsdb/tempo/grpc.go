@@ -50,7 +50,7 @@ func newGrpcClient(ctx context.Context, settings backend.DataSourceInstanceSetti
 	}
 
 	// grpc.Dial() is deprecated in favor of grpc.NewClient(), but grpc.NewClient() changed the default resolver to dns from passthrough.
-	// This is a problem because the getDialOpts() function appends a custom dialer to the dial options to support Grafana Cloud PDC.
+	// This is a problem because the getDialOpts() function appends a custom dialer to the dial options to support Rubix Dashboard PDC.
 	//
 	// See the following quote from the grpc package documentation:
 	//     One subtle difference between NewClient and Dial and DialContext is that the
@@ -101,7 +101,7 @@ func getDialOpts(ctx context.Context, settings backend.DataSourceInstanceSetting
 		dialOps = append(dialOps, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	}
 
-	// The following code is required to make gRPC work with Grafana Cloud PDC
+	// The following code is required to make gRPC work with Rubix Dashboard PDC
 	// (https://grafana.com/docs/grafana-cloud/connect-externally-hosted/private-data-source-connect/)
 	proxyClient, err := settings.ProxyClient(ctx)
 	if err != nil {
